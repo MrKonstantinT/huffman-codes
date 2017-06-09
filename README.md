@@ -8,9 +8,9 @@ The library provides a full binary tree data structure and procedures required t
 
 With Huffman codes data compression is very effective: savings between `20%` to `90%` are typical (depending on the sequence of symbols) ([Cormen et. al., 2009](#references)).
 
-It is possible to calculate the addresses of symbols in a compressed sequence in constant time on the fly given that you have loaded a Huffman codes tree based data structure with operations that on average take less than O(log(alphabet length)) time to compute; the data structure can also be compacted (which makes said operations more efficient) and generated online in linear time ([Zhang et. al., 2008](#references)).
+It is possible to calculate the addresses of symbols in a compressed sequence in constant time on the fly given that you have loaded a Huffman codes tree based data structure with operations that on average take less than _O(log(alphabet length))_ time to compute; the data structure can also be compacted (which makes said operations more efficient) and generated online in linear time ([Zhang et. al., 2008](#references)).
 
-If the symbols in the input sequence generally occur in a non-repeating order we will not get effective compression with [Lempel-Ziv-Welch](http://cs.indstate.edu/~ngandepalli/Abstract.pdf) (LZW) which has multiple advantages including at least 50% size reduction.
+If the symbols in the input sequence generally occur in a non-repeating order we will not get effective compression with [Lempel-Ziv-Welch](http://cs.indstate.edu/~ngandepalli/Abstract.pdf) (LZW) which has multiple advantages including at least `50%` size reduction.
 
 ### Disadvantages
 
@@ -53,4 +53,4 @@ See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
 
 Cormen, T. H., Leiserson, C. E., Rivest, R. L. and Stein, C. (2009). _Introduction to Algorithms_, chapter Greedy Algorithms. 3 Ed. Massachusetts USA, The MIT Press.
 
-Zhang, Y., Pei, Z., Yang, J., Liang, Y. (2006). Canonical Huffman code based full-text index. _Progress in Natural Science_ *18*(3): 325-330.
+Zhang, Y., Pei, Z., Yang, J., Liang, Y. (2006). Canonical Huffman code based full-text index. _Progress in Natural Science_ __18__(3): 325-330.
