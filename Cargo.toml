@@ -2,7 +2,7 @@
 name = "huffman_codes"
 version = "0.1.0"
 authors = ["Konstantin Terziev <kd.terziev@gmail.com>"]
-description = "A Rust library which can generate and read Huffman Codes."
+description = "A Rust library which can generate and read Huffman codes."
 repository = "https://github.com/MrKonstantinT/huffman-codes"
 readme = "README.md"
 keywords = ["huffman", "prefix", "prefix-free", "codes"]
