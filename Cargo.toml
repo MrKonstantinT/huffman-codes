@@ -3,12 +3,12 @@ name = "huffman_codes"
 version = "0.1.0"
 authors = ["Konstantin Terziev <kd.terziev@gmail.com>"]
 description = "A Rust library which can generate and read Huffman codes."
-repository = "https://github.com/MrKonstantinT/huffman-codes"
+repository = "https://github.com/konstantindt/huffman-codes"
 readme = "README.md"
 keywords = ["huffman", "prefix", "prefix-free", "codes"]
 categories = ["algorithms", "encoding", "compression"]
 license = "MIT"
 
 [dependencies]
-min_binary_heap = { git = "https://github.com/MrKonstantinT/min-binary-heap" }
-bit_array_list = { git = "https://github.com/MrKonstantinT/bit-array-list" }
+min_binary_heap = { git = "https://github.com/konstantindt/min-binary-heap" }
+bit_array_list = { git = "https://github.com/konstantindt/bit-array-list" }

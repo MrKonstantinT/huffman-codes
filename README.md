@@ -2,13 +2,13 @@
 
 The library provides a full binary tree data structure and procedures required to construct or decode Huffman codes from the alphabet of a sequence of symbols and the associated frequency of said symbols in the sequence. With these tools lossless data compression can be achieved.
 
-[![Build Status](https://travis-ci.org/MrKonstantinT/huffman-codes.svg?branch=master)](https://travis-ci.org/MrKonstantinT/huffman_codes)
+[![Build Status](https://travis-ci.org/konstantindt/huffman-codes.svg?branch=master)](https://travis-ci.org/konstantindt/huffman_codes)
 
 ### Advantages
 
 With Huffman codes data compression is very effective: savings between `20%` to `90%` are typical (depending on the sequence of symbols) ([Cormen et. al., 2009](#references)).
 
-I have presented a possible way of accessing the compressed symbols without decoding the whole sequence [here](https://gist.github.com/MrKonstantinT/1cdd564ca6b286389a8a874dc642f1a6).
+I have presented a possible way of accessing the compressed symbols without decoding the whole sequence [here](https://gist.github.com/konstantindt/1cdd564ca6b286389a8a874dc642f1a6).
 
 If the symbols in the input sequence generally occur in a non-repeating order we will not get effective compression with [Lempel-Ziv-Welch](http://cs.indstate.edu/~ngandepalli/Abstract.pdf) (LZW) which has multiple advantages including at least `50%` size reduction.
 
@@ -36,7 +36,7 @@ Add this entry under `Cargo.toml` `dependencies` section name:
 
 ```toml
 [dependencies]
-huffman_codes = { git = "https://github.com/MrKonstantinT/huffman-codes" }
+huffman_codes = { git = "https://github.com/konstantindt/huffman-codes" }
 ```
 
 and the following to your crate root:

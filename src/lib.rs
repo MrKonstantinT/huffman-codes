@@ -11,7 +11,7 @@
 //!
 //! ```toml
 //! [dependencies]
-//! huffman_codes = { git = "https://github.com/MrKonstantinT/huffman-codes" }
+//! huffman_codes = { git = "https://github.com/konstantindt/huffman-codes" }
 //! ```
 //!
 //! and the following to your crate root:
